@@ -1,4 +1,4 @@
-import { HeroText } from "@/components/HeroText";
+import Hero from "@/components/Hero";
 import ModeToggle from "@/components/mode-toggle";
 import { Spotlight } from "@/components/ui/spotlight";
 
@@ -13,7 +13,7 @@ export default function Home() {
       <div className="absolute right-2 top-2">
         <ModeToggle />
       </div>
-      <HeroText />
+      <Hero />
     </main>
   );
 }
